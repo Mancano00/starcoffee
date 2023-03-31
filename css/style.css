@@ -1,0 +1,255 @@
+main {
+    margin: 0 auto;
+    font-family: sans-serif;
+    max-width: 1446px;
+    flex-wrap: wrap;
+}
+.comeco {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0px 1px 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo > img {
+    width: 55px;
+    height: 55px;
+    margin: 20px;
+    padding-right: 10px;
+}
+.logo > a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 100px;
+}
+.menu-botao {
+    display: flex;
+    align-items: center;
+}
+.menu-botao > .loja {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 100px;
+}
+.entrar {
+    padding: 7px 15px;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 50px;
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    transition: 500ms;
+}
+.entrar:hover{
+    transition: 500ms;
+    font-size: 12px;
+    padding: 7px 15px;
+    box-shadow: 0px 1px 5px;
+}
+.participe {
+    transition: 500ms;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 7px 15px;
+    text-decoration: none;
+    border-radius: 50px;
+    margin: 10px;
+}
+.participe:hover {
+    transition: 500ms;
+    font-size: 12px;
+    padding: 7px 15px;
+    box-shadow: 0px 1px 5px;
+}
+.imagem1 {
+    margin: 0px auto;
+    width: 100%;
+    height: 420px;
+    background-size: cover;
+}
+.p1 {
+    text-align: center;
+    background-color: #7fffd473;
+    width: 100%;
+    height: 160px;
+    margin: 20px auto;
+}
+.p1 > a {
+    border: 1px solid black;
+    color: black;
+    padding: 7px 15px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: 500ms;
+}
+.p1 > a:hover {
+    font-size: 12px;
+    transition: 500ms;
+    box-shadow: 0px 1px 5px;
+}
+.div3 {
+    text-align: center;
+    background-color: #7fffd473;
+    width: 100%;
+    height: 600px;
+    margin: 20px auto;
+    display: flex;
+}
+.img2 {
+    width: 50%;
+    background-size: cover;
+}
+.p2 > p {
+    text-align: center;
+    font-size: 20px;
+}
+.p2 > a {
+    border: 1px solid black;
+    color: black;
+    padding: 7px 15px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: 500ms;
+}
+.p2 > a:hover {
+    font-size: 12px;
+    transition: 500ms;
+    box-shadow: 0px 1px 5px;
+}
+.p2 {
+    margin: 80px;
+}
+.div4 {
+    text-align: center;
+    background-color: #7fffd473;
+    width: 100%;
+    height: 300px;
+    margin: 20px auto;
+    display: flex;
+}
+.img3 {
+    width: 50%;
+    background-size: cover;
+}
+.p3 > a {
+    border: 1px solid black;
+    color: black;
+    padding: 7px 15px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: 500ms;
+}
+.p3 > a:hover {
+    font-size: 12px;
+    transition: 500ms;
+    box-shadow: 0px 1px 5px;
+}
+.p3 {
+    width: 50%;
+    margin: 70px 0px;
+}
+.div5 {
+    text-align: center;
+    background-color: #7fffd473;
+    width: 100%;
+    height: 300px;
+    margin: 20px auto;
+    display: flex;
+}
+.img4 {
+    width: 50%;
+    background-size: cover;
+}
+.p4 > a {
+    border: 1px solid black;
+    color: black;
+    padding: 7px 15px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: 500ms;
+}
+.p4 > a:hover {
+    font-size: 12px;
+    transition: 500ms;
+    box-shadow: 0px 1px 5px;
+}
+.p4 {
+    width: 50%;
+    margin: 60px 0px;
+}
+.div6 {
+    text-align: center;
+    background-color: #7fffd473;
+    display: flex;
+    margin: 20px auto;
+    width: 100%;
+    height: 300px;
+}
+.p5 {
+    width: 50%;
+    margin: 60px 0px;
+}
+.img5 {
+    width: 50%;
+    background-size: cover;
+}
+.p5 > a {
+    border: 1px solid black;
+    color: black;
+    padding: 7px 15px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: 500ms;
+}
+.p5 > a:hover {
+    font-size: 12px;
+    transition: 500ms;
+    box-shadow: 0px 1px 5px;
+}
+footer {
+    box-shadow: 0px -1px 5px black;
+}
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.fim > a {
+    text-decoration: none;
+    color: gray;
+    margin: 10px 0px;
+}
+.fim > a:hover {
+    color: black;
+}
+.fim {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+hr {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.dim {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.dim > a {
+    margin: 10px;
+}
