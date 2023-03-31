@@ -27,6 +27,9 @@ main {
     color: black;
     font-weight: 100px;
 }
+.logo > a:hover {
+    color: green;
+}
 .menu-botao {
     display: flex;
     align-items: center;
